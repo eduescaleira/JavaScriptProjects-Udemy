@@ -52,3 +52,12 @@
     }
 
     saleStatus(`Approved!`, 30)
+
+    // FUNCTIONS COM CÁLCULOS
+
+    function percentage10(price) {
+       return price * 0.9
+    }
+
+    let total = percentage10(20)
+    console.log(total)
