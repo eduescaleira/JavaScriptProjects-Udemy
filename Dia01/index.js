@@ -39,3 +39,8 @@
     console.log(pen)
     console.log(pen.itemColor)
 
+    // ARRAY
+
+    let friendsList = ['José', 'Marcos', 'Eduardo']
+    friendsList[2] = 'Diana'
+    console.log(friendsList)
