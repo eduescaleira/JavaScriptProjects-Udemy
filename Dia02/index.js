@@ -11,3 +11,9 @@ console.log(num1 % num2) // RESTO DA DIVISÃO
 console.log(num1 ** num2) // EXPONENCIAL
 console.log(num1 + num2++) // INCREMENTO
 console.log(num1 - num2--) // REDUÇÃO
+
+// OPERADORES DE ATRIBUIÇÃO
+
+let num3 = 20
+num3 += 10 // ATRIBUIÇÃO (20+10)
+console.log(num3)
