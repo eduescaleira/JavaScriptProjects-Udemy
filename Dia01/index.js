@@ -42,5 +42,13 @@
     // ARRAY
 
     let friendsList = ['José', 'Marcos', 'Eduardo']
-    friendsList[2] = 'Diana'
+    friendsList[2] = 'Diana' // substituição
     console.log(friendsList)
+
+    // FUNCTIONS
+
+    function saleStatus(status, total) {
+        console.log(`Transaction ` + status + ` Total amount: $` + total)
+    }
+
+    saleStatus(`Approved!`, 30)
