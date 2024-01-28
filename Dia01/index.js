@@ -7,3 +7,9 @@
 
     let lastName = `Escaleira`
     console.log(lastName)
+
+    // CONSTANTES
+
+    const price = 30 
+    price = 12
+    console.log(price)
