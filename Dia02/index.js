@@ -17,3 +17,13 @@ console.log(num1 - num2--) // REDUÇÃO
 let num3 = 20
 num3 += 10 // ATRIBUIÇÃO (20+10)
 console.log(num3)
+
+// OPERADORES DE COMPARAÇÃO
+
+let num4 = 3
+
+console.log(num4 > 0)
+console.log(num4 >= 0)
+console.log(num4 <= 0)
+console.log(num4 < 0)
+console.log(num4 === 0) // IDENTICO A ...
