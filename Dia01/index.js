@@ -11,5 +11,31 @@
     // CONSTANTES
 
     const price = 30 
-    price = 12
     console.log(price)
+
+    // UTILIZANDO O ASI (;)
+    // AUTOMATIC SEMICOLON INSERCTION
+    // NÃO É NECESSÁRIO UTILIZAR ;
+
+    // TIPOS DE VARIÁVEIS (PRIMITIVOS) // 
+
+    let itemName = 'Pen' // STRING
+    let itemPrice = 3  // NUMBER
+    let isAvailable = true // BOOLEAN
+    let itemColor // UNDEFINED (sem definição)
+    let itemConfig = null // NULL
+
+    // OBJETOS
+
+    let pen = {
+        itemName: 'Pen',
+        itemPrice: 3,
+        isAvailable: true,
+        itemColor: 'Red'
+    }
+
+    pen.itemColor = "Blue"
+
+    console.log(pen)
+    console.log(pen.itemColor)
+
