@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(181, 132, 227);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#spantext {
+    color: blue;
+}
