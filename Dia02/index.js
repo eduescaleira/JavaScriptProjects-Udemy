@@ -89,3 +89,9 @@ switch (airport) {
     default:
         console.log('Unknown')
 }
+
+// FOR LOOP
+
+for (i = 1; i <= 10; i++) { // VARIÁVEL ; CONDIÇÃO ; INCREMENTO
+    console.log("Número " + i)
+}
