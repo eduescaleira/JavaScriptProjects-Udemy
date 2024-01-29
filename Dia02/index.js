@@ -35,3 +35,10 @@ let num6 = 1
 
 console.log(num5 === num6) // IDENTICO A (INCLUSIVE STRING, NUMBER)
 console.log(num5 == num6) // IGUAL A, NÃO DIFERENCIA STRING/NUMBER
+
+// OPERADORES TERNÁRIOS
+
+let driverSpeed = 90
+let speed = driverSpeed > 110 ? 'Above' : 'Below' // SE A VELOCIDADE FOR MAIOR QUE 110, ELE RETORNA ABOVE, SE FALSO, RETORNA BELOW
+
+console.log(speed)
