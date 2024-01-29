@@ -42,3 +42,12 @@ let driverSpeed = 90
 let speed = driverSpeed > 110 ? 'Above' : 'Below' // SE A VELOCIDADE FOR MAIOR QUE 110, ELE RETORNA ABOVE, SE FALSO, RETORNA BELOW
 
 console.log(speed)
+
+// OPERADORES LÓGICOS
+
+let temIdadeMinima = true
+let temTituloDeEleitor = true
+let podeVotar = temIdadeMinima && temTituloDeEleitor
+let podeViajar = !podeVotar
+
+console.log(podeVotar)
