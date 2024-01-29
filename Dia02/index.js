@@ -51,3 +51,11 @@ let podeVotar = temIdadeMinima && temTituloDeEleitor
 let podeViajar = !podeVotar
 
 console.log(podeVotar)
+
+// OPERADORES LÓGICOS COM STRINGS/NUMBERS
+
+let corCliente = 'White'
+let corEstoque = 'Black'
+let corVendida = corCliente || corEstoque
+
+console.log(corVendida)
