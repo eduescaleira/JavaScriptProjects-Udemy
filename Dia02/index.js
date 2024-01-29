@@ -123,3 +123,30 @@ const myCar = {
 for (let i in myCar) {
     console.log(i, myCar[i])
 }
+
+// FOR OF LOOP
+
+const friends = ['Eduardo', 'Diana', 'Joaquim', 'Analu']
+
+for (let i of friends) {
+    console.log(i)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
