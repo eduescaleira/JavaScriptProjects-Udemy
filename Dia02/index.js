@@ -93,5 +93,13 @@ switch (airport) {
 // FOR LOOP
 
 for (i = 1; i <= 10; i++) { // VARIÁVEL ; CONDIÇÃO ; INCREMENTO
-    console.log("Número " + i)
+    console.log("For Loop Número " + i)
+}
+
+// WHILE LOOP
+
+ i = 1
+
+while (i <= 10) {
+    console.log("While Loop Número " + i++)
 }
