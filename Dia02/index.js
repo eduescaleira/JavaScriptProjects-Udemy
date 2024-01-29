@@ -98,8 +98,16 @@ for (i = 1; i <= 10; i++) { // VARIÁVEL ; CONDIÇÃO ; INCREMENTO
 
 // WHILE LOOP
 
- i = 1
+i = 1
 
 while (i <= 10) {
     console.log("While Loop Número " + i++)
 }
+
+// DO WHILE LOOP (NÃO É MUITO UTILIZADO)
+
+n = 1
+
+do {
+    console.log("Do While número ", n++)
+} while (n <= 10)
