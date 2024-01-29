@@ -111,3 +111,15 @@ n = 1
 do {
     console.log("Do While número ", n++)
 } while (n <= 10)
+
+// FOR IN LOOP
+
+const myCar = {
+    model: 'BMW',
+    year: 2020,
+    km: 68000
+} 
+
+for (let i in myCar) {
+    console.log(i, myCar[i])
+}
