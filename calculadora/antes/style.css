@@ -1,45 +1,79 @@
 body {
-	background: #d0b8fd;
+    background-color: rgb(181, 230, 242);
 }
-.wrapper {
-	width: 400px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background: #262626;
-	padding: 50px;
-	color: #fff;
-	text-align: center;
+
+div.calculatorBackground {
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(106, 96, 56);
+    border-radius: 10%;
 }
-.wrapper h2 {
-	text-transform: uppercase;
-	font-family: poppins;
-	margin-bottom: 10%;
+
+#calculatorTitle {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
 }
-input[type="text"] {
-	height: 40px;
+
+#num1 {
+    height: 35px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+#num2 {
+    height: 35px;
+    width: 250px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.radioButtons {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.8);
+    margin-top: 40px;
+  
+}
+
+#calcular {
+    color: rgb(0, 0, 0);
+    background-color: rgb(210, 195, 179);
+    width: 200px;
+    height: 40px;
 
 }
-input[type="text"] {
-	font-size: 24px;
+
+.calculateContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 80px;
+    transform: translate(-50%, -50%)
 }
-button {
-	background: #EE4477;
-	border: none;
-	color: #fff;
-	display: inline-block;
-	padding: 10px 25px;
-	font-size: 18px;
-	text-transform: uppercase;
-	font-family: poppins;
-	letter-spacing: 2px;
-	font-weight: bold;
-}
-input[type="radio"] {
-	width: 20px;
-	height: 20px;
-}
-b {
-	font-size: 30px;
+
+.result {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 130px;
+    transform: translate(-50%, -50%)
 }
