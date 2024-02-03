@@ -9,55 +9,55 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Quick Tip</title>
+    <title>Calculadora de Gorjeta</title>
   </head>
   <body>
-    <main >
-      <h1>Quick Tip</h1>
+    <main oninput="update()">
+      <h1>Calculadora de Gorjeta</h1>
       <section>
         <div class="bill">
-          <label for="yourBill">Bill</label>
+          <label for="yourBill">Valor</label>
           <input 
             type="number" 
-            placeholder="Your bill" 
+            placeholder="Digite o valor total da conta" 
             id="yourBill"  />
         </div>
         <div>
           <div class="space-between">
-            <label for="">Select tip</label
-            ><span id="tipPercent">0%</span>
+            <label for="">Porcentagem de gorjeta</label
+            ><span id="tipPercent">0 %</span>
           </div>
           <input type="range" value="0" id="tipInput" class="range" />
         </div>
         <div class="space-between">
-          <span>Tip</span>
-          <span id="tipValue"></span>
+          <span>Valor da gorjeta</span>
+          <span id="tipValue"> R$ 0.00</span>
         </div>
         <hr />
         <div class="space-between total">
           <span>Total</span>
-          <span id="totalWithTip"></span>
+          <span id="totalWithTip">R$ 0.00</span>
         </div>
       </section>
 
       <section>
         <div>
           <div class="space-between">
-            <label for="splitInput">Split</label>
-            <span id="splitValue">1</span>
+            <label for="splitInput">Divisão</label>
+            <span id="splitValue">1 pessoa</span>
           </div>
           <input
             type="range"
             min="1"
-            max="10"
+            max="100"
             value="1"
             id="splitInput"
             class="range"
           />
         </div>
         <div class="space-between">
-          <span>Bill each</span>
-          <span id="billEach"></span>
+          <span>Valor total por pessoa</span>
+          <span id="billEach">R$ 0.00</span>
         </div>
       </section>
     </main>
